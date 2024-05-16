@@ -27,7 +27,7 @@ const Login = () => {
             src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
             alt="Your Company"
           />
-          <h2 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-[#30475E]">
+          <h2 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-[#272744]">
             Classroom Demo
           </h2>
         </div>
@@ -50,7 +50,7 @@ const Login = () => {
             <div className="text-sm">
               <a
                 href="#"
-                className="font-semibold text-[#CBAF87] hover:text-[#E7DEC8]"
+                className="font-semibold text-[#8B6D9C] hover:text-[#C69FA5]"
               >
                 ¿Olvidaste tu contraseña?
               </a>
@@ -58,11 +58,11 @@ const Login = () => {
             <Button name="Ingresar" type="submit" onClick={handleBtn} />
           </form>
 
-          <p className="mt-10 text-center text-sm text-[#30475E]">
+          <p className="mt-10 text-center text-sm text-[#494D7E]">
             ¿No eres miembro?{" "}
             <a
               href="#"
-              className="font-semibold leading-6 text-[#CBAF87] hover:text-[#E7DEC8]"
+              className="font-semibold leading-6 text-[#8B6D9C] hover:text-[#C69FA5]"
             >
               Contactanos
             </a>

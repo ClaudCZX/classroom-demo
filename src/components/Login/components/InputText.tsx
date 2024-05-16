@@ -15,7 +15,7 @@ const InputText = (props: InputProps) => {
     <div>
       <label
         htmlFor={props.name}
-        className="block text-sm font-medium leading-6 text-[#30475E]"
+        className="block text-sm font-medium leading-6 text-[#494D7E]"
       >
         {props.label}
       </label>

@@ -11,7 +11,7 @@ const Button = (props: ButtonProps) => {
       <button
         onClick={props.onClick}
         type={props.type}
-        className="flex w-full justify-center rounded-md bg-[#CBAF87] hover:bg-[#E7DEC8] px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+        className="flex w-full justify-center rounded-md bg-[#8B6D9C] hover:bg-[#C69FA5] px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
       >
         {props.name}
       </button>
