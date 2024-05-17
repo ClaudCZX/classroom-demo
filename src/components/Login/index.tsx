@@ -27,7 +27,7 @@ const Login = () => {
             src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
             alt="Your Company"
           />
-          <h2 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-[#272744]">
+          <h2 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight">
             Classroom Demo
           </h2>
         </div>
