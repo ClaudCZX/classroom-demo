@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Dashboard from "./components/Dashboard/index.tsx";
-import Login from "./components/Login/index.tsx";
+import Dashboard from "./pages/Dashboard/index.tsx";
+import Login from "./pages/Login/index.tsx";
 
 const App = () => {
   return (
