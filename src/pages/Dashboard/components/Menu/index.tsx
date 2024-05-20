@@ -1,12 +1,13 @@
+import { Link } from "react-router-dom";
 import Student from "./components/Student";
 import Navigation from "./components/Navigation";
 import Button from "../../../Login/components/Button";
+import NAVITEMS from "./navigationItems";
 
 const Menu = () => {
-  const navList = ["Perfil", "Estudio", "Evaluaciones", "Stream", "ajustes"];
   const userInfo = {
     name: "student name",
-    imgUser: "user.jpeg",
+    imgUser: "/user.jpeg",
     level: 0,
   };
 
@@ -17,14 +18,16 @@ const Menu = () => {
   return (
     <div className="flex flex-col h-full w-80 justify-around items-center bg-[#F2D3AB]">
       <div>
-        <h1>Classroom Demo</h1>
+        <Link to={"main"}>
+          <h1>Classroom Demo</h1>
+        </Link>
       </div>
       <Student
         name={userInfo.name}
         imgUser={userInfo.imgUser}
         level={userInfo.level}
       />
-      <Navigation list={navList} />
+      <Navigation list={NAVITEMS} />
       <Button name="Log Out" type="submit" onClick={handleBtn} />
     </div>
   );

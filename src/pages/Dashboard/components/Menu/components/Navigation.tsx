@@ -1,5 +1,7 @@
+import { Link } from "react-router-dom";
+
 interface NavigationProps {
-  list: string[];
+  list: { title: string; url: string }[];
 }
 
 const Navigation = (props: NavigationProps) => {
@@ -8,7 +10,7 @@ const Navigation = (props: NavigationProps) => {
       key={index}
       className="cursor-pointer text-[#272744] hover:text-[#494d7e] text-center p-2"
     >
-      {element}
+      <Link to={element.url}>{element.title}</Link>
     </li>
   ));
   return (
