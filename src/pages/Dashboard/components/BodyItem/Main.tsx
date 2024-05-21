@@ -1,4 +1,4 @@
-const BodyItem = () => {
+const Main = () => {
   return (
     <div className="h-full w-full">
       <h1>Dashboard</h1>
@@ -6,4 +6,4 @@ const BodyItem = () => {
   );
 };
 
-export default BodyItem;
+export default Main;
