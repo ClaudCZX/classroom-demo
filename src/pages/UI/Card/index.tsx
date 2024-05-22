@@ -1,8 +1,11 @@
 interface CardProps {
-  className?: string;
+  title: string;
+  levelName: string;
+  totalCaps: number;
+  percComplete: number;
 }
 
-const Card = () => {
+const Card = (props: CardProps) => {
   return (
     <div className=" overflow-hidden col-span-12 md:col-span-4 rounded-xl backdrop-blur-md border border-black/10 shadow-inner shadow-white/10">
       <div className="relaltive">
@@ -13,20 +16,19 @@ const Card = () => {
         />
       </div>
       <div className="text-center px-6 py-4">
-        <h3 className="text-xl font-semibold">Capitulo 1</h3>
-        <p className="text-sm font-medium">Camino a la madurez</p>
+        <h3 className="text-xl font-semibold">{props.title}</h3>
+        <p className="text-sm font-medium">{props.levelName}</p>
         <div className="flex justify-center mt-4">
           <div>
             <p className="text-sm">Capitulos</p>
-            <p className="text-lg font-semibold">10</p>
+            <p className="text-lg font-semibold">{props.totalCaps}</p>
           </div>
           <div className="ml-6">
             <p className="text-sm">Completado</p>
-            <p className="text-lg font-semibold">20%</p>
+            <p className="text-lg font-semibold">{props.percComplete}%</p>
           </div>
         </div>
       </div>
-      <p aria-label="View source on GitHub" />
     </div>
   );
 };
