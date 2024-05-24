@@ -1,11 +1,11 @@
 import { Route, Routes } from "react-router-dom";
-import Main from "./components/BodyItem/Main";
-import Menu from "./components/Menu";
+import Main from "./Main";
+import Menu from "./Menu";
 import Perfil from "./components/BodyItem/Perfil";
-import Study from "./components/BodyItem/Study";
-import Evaluations from "./components/BodyItem/Evaluations";
-import Stream from "./components/BodyItem/Stream";
-import Settings from "./components/BodyItem/Settings";
+import Study from "./Study";
+import Evaluations from "./Evaluation";
+import Stream from "./Stream";
+import Settings from "./Preferences";
 
 const Dashboard = () => {
   return (

@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import Student from "./components/Student";
 import Navigation from "./components/Navigation";
-import Button from "../../../Login/components/Button";
+import Button from "../../Login/components/Button";
 import NAVITEMS from "./navigationItems";
 
 const Menu = () => {
