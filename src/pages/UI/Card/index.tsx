@@ -3,11 +3,14 @@ interface CardProps {
   levelName: string;
   totalCaps: number;
   percComplete: number;
+  className: string;
 }
 
 const Card = (props: CardProps) => {
   return (
-    <div className=" overflow-hidden col-span-12 md:col-span-4 rounded-xl backdrop-blur-md border border-black/10 shadow-inner shadow-white/10">
+    <div
+      className={`${props.className} rounded-xl backdrop-blur-md border border-black/10 shadow-inner shadow-white/10 overflow-hidden `}
+    >
       <div className="relaltive">
         <img
           src="/user.jpeg"
