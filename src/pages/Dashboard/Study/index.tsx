@@ -3,8 +3,8 @@ import Card from "../../UI/Card";
 
 const Study = () => {
   return (
-    <div className="relative h-screen w-full">
-      <h1>Estudios</h1>
+    <div className="relative w-full flex flex-col">
+      <h1 className="text-left text-3xl p-6">Estudios</h1>
       <Bento className="grid-cols-12 auto-rows-[20rem] overflow-scroll">
         <Card
           title="Camino a la madurez"

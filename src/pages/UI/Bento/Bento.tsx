@@ -7,7 +7,9 @@ interface BentoProps {
 
 const Bento = (props: BentoProps) => {
   return (
-    <div className={`w-full h-full grid ${props.className} gap-4 mx-auto p-20`}>
+    <div
+      className={`w-full h-full grid ${props.className} gap-4 mx-auto px-20 pb-14`}
+    >
       {props.children}
     </div>
   );
