@@ -1,5 +1,5 @@
 const NAVITEMS = [
-  { title: "Perfil", url: "perfil" },
+  { title: "Perfil", url: "main" },
   { title: "Estudio", url: "study" },
   { title: "Evaluaciones", url: "evaluations" },
   { title: "Stream", url: "stream" },
