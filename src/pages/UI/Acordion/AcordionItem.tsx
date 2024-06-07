@@ -8,7 +8,9 @@ interface AcordionItemProps {
 const AcordionItem = (props: AcordionItemProps) => {
   return (
     props.isOpen && (
-      <div className="px-4 py-2 border-t border-gray-200">{props.children}</div>
+      <div className="px-10 py-2 border-t border-gray-200">
+        {props.children}
+      </div>
     )
   );
 };

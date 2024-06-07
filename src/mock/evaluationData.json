@@ -4,20 +4,35 @@
     "title": "Capitulo 1",
     "subTitle": "Camino a la madurez",
     "imgChapter": "/user.jpeg",
-    "status": "Complete"
+    "status": "Complete",
+    "subChapters": [
+      { "id": 1, "title": "hola", "status": "complete" },
+      { "id": 2, "title": "como", "status": "pending" },
+      { "id": 3, "title": "adios", "status": "repeat" }
+    ]
   },
   {
     "id": 2,
     "title": "Capitulo 2",
     "subTitle": "Las 70 semanas",
     "imgChapter": "/user.jpeg",
-    "status": "Pending"
+    "status": "Pending",
+    "subChapters": [
+      { "id": 1, "title": "hello", "status": "complete" },
+      { "id": 2, "title": "how", "status": "pending" },
+      { "id": 3, "title": "bye", "status": "repeat" }
+    ]
   },
   {
     "id": 3,
     "title": "Capitulo 3",
     "subTitle": "Los ultimos tiempos",
     "imgChapter": "/user.jpeg",
-    "status": "Repeat"
+    "status": "Repeat",
+    "subChapters": [
+      { "id": 1, "title": "wena", "status": "complete" },
+      { "id": 2, "title": "estay", "status": "pending" },
+      { "id": 3, "title": "noh vimo", "status": "repeat" }
+    ]
   }
 ]
